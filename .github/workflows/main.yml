@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: chleighton1/hello-world-javascript-action@v1.2
+        uses: chleighton1/hello-world-javascript-action@v1.1
         with:
           who-to-greet: "Charles"
       # Use the output from the `hello` step
